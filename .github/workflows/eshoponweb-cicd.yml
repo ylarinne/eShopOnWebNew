@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: fe4f8a31-ecd9-4df8-bcb2-cb3c1ca43b59
-  WEBAPP-NAME: eshoponweb-webapp-toni
+  WEBAPP-NAME: eshoponweb-webapp-toni2
 
 
 jobs:
@@ -70,7 +70,7 @@ jobs:
         
    #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
     - name: Azure Login
-      uses: azure/login@v1
+      uses: azure/login@v2.0.0
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
            
