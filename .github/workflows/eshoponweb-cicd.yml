@@ -8,8 +8,8 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-toni
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: fe4f8a31-ecd9-4df8-bcb2-cb3c1ca43b59
-  WEBAPP-NAME: eshoponweb-webapp-toni2
+  SUBSCRIPTION-ID: 4e93e573-7251-4c16-9dd0-2d093aaac19f
+  WEBAPP-NAME: eshoponweb-webapp-toni
 
 
 jobs:
